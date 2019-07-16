@@ -13,6 +13,7 @@
 		D8250C0122DE2E7800B82C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8250C0022DE2E7800B82C36 /* Assets.xcassets */; };
 		D8250C0422DE2E7800B82C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8250C0222DE2E7800B82C36 /* LaunchScreen.storyboard */; };
 		D8250C0722DE2E7800B82C36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8250C0622DE2E7800B82C36 /* main.m */; };
+		D8250C0F22DE302600B82C36 /* JAFQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = D8250C0E22DE302600B82C36 /* JAFQuake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D8250C0322DE2E7800B82C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8250C0522DE2E7800B82C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8250C0622DE2E7800B82C36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8250C0D22DE302600B82C36 /* JAFQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAFQuake.h; sourceTree = "<group>"; };
+		D8250C0E22DE302600B82C36 /* JAFQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAFQuake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		D8250BF622DE2E7600B82C36 /* Quakie */ = {
 			isa = PBXGroup;
 			children = (
+				D8250C0D22DE302600B82C36 /* JAFQuake.h */,
+				D8250C0E22DE302600B82C36 /* JAFQuake.m */,
 				D8250BF722DE2E7600B82C36 /* AppDelegate.h */,
 				D8250BF822DE2E7600B82C36 /* AppDelegate.m */,
 				D8250BFA22DE2E7600B82C36 /* ViewController.h */,
@@ -97,6 +102,7 @@
 		D8250BEC22DE2E7600B82C36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JAF;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Glas Labs";
 				TargetAttributes = {
@@ -142,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8250BFC22DE2E7600B82C36 /* ViewController.m in Sources */,
+				D8250C0F22DE302600B82C36 /* JAFQuake.m in Sources */,
 				D8250C0722DE2E7800B82C36 /* main.m in Sources */,
 				D8250BF922DE2E7600B82C36 /* AppDelegate.m in Sources */,
 			);
